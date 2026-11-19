@@ -109,6 +109,6 @@ metadata:
 - `verify.py` 做结构自检（frontmatter、21 文件齐全、代码块与占位符）；提供原文路径时只对 01–12 逐字比对。
 - `ROUTER.md` 是显式路由模式，默认不加载；`tests/routing-cases.md` 是回归样例。
 - `DELEGATION.md` 是子代理执行标准：执行方式表、任务包模板、返回格式、主代理边界。
-- 全局钩子 `C:/Users/valor/.zcode/hooks/kazike_router_gate.py`（UserPromptSubmit）：消息提到卡兹克/选一条时自动注入索引 + ROUTER.md，并要求回答开头写路由声明，防止路由层被跳过。
+- 路由闸门钩子 `hooks/kazike_router_gate.py`（可选）：UserPromptSubmit + PreToolUse(Skill)，消息提到卡兹克/选一条时自动注入索引 + ROUTER.md，并要求回答开头写路由声明，防止路由层被跳过。安装见 `hooks/README.md`。
 - 原 1.0 版路由文件在 `_archive/SKILL-v1.md`；3.0.1 版在 `_archive/SKILL-v3.0.1.md`。
 - laoyeye 上游（已归档）：https://github.com/LearnPrompt/laoyeye
