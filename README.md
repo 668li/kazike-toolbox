@@ -89,6 +89,13 @@ Windows 对应 `%USERPROFILE%\.agents\skills\kazike-toolbox`。
 
 如果你只想要 12 条提示词，网上有更轻的整理；如果你要的是「agent 真的按提示词干活」，再看这个。
 
+## 相关项目
+
+- [`KongLing-Jun/kazike-thinking-skills`](https://github.com/KongLing-Jun/kazike-thinking-skills)：把 12 条拆成 12 个独立 skill，带结构验证和行为样例，适合按单个方法安装。
+- [`damenlaoshi/product-twelve-prompts`](https://github.com/damenlaoshi/product-twelve-prompts)：面向外国学生的「十二式」网页版。
+
+本项目与它们不冲突：它们解决「单条提示词怎么装」，本项目解决「21 条怎么被一个 agent 稳定调度」。
+
 ## 验证
 
 ```bash
