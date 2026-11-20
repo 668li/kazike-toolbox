@@ -62,6 +62,12 @@ verify.py          # 结构自检
 
 Windows 对应 `%USERPROFILE%\.agents\skills\kazike-toolbox`。
 
+也可以直接克隆：
+
+```bash
+git clone https://github.com/668li/kazike-toolbox.git ~/.agents/skills/kazike-toolbox
+```
+
 2. 可选：注册路由闸门 hook，见 [`hooks/README.md`](hooks/README.md)。不装也能用，装了模型就不能跳过 `ROUTER.md`。
 
 3. 在 agent 里直接说：
