@@ -1,9 +1,9 @@
 ---
 name: kazike-toolbox
-description: 卡兹克提示语库（21 条）。仅在用户明确要用卡兹克工具箱、点名某条提示词，或问题本身模糊、缺少定义、需要一套思考框架时使用；用户已给出完整任务书（明确对象、动作、交付物）时不要使用。
+description: 卡兹克提示语库（21 条）。用于用户明确点名卡兹克工具箱、要求选一条提示词，或给出完整任务书需要直接执行对应提示词时；也用于问题模糊、缺少定义、需要一套思考框架时。
 user_invocable: true
 version: 3.1.0
-author: 卡兹克（原始 12 条）/ 用户投稿（13–21）/ 封装为 skill
+author: 卡兹克（原始 12 条）/ 用户投稿（13–21）/ valor（封装）
 license: MIT
 metadata:
   source: https://x.com/Khazix0918/status/2090726395035156964
@@ -11,6 +11,7 @@ metadata:
   captured: 2026-08-28
   extended: 2026-11-19（新增 13–21；同日 3.1.0 改为「任务书直通 + 显式路由」）
   history: 曾并入 laoyeye（2026-10-20）；2026-11-01 实测 laoyeye 已归档不在活跃库，prompts/ 是唯一可用副本
+  license_note: 代码 MIT；01–12 提示词版权归卡兹克，13–21 为用户投稿，详见 NOTICE.md
 ---
 
 # 卡兹克工具箱
